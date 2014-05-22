@@ -4,7 +4,7 @@ RNI Schedule Plotr
 
 This is a visualization of projects and milestones for RNI.
 
-Check out the [Pirate Plotr Render here](http://auremoser.github.io/pirateplotr/).
+Check out the [Pirate Plotr Render here](http://ushahidi.github.io/RNIplotr/).
 
 ### about
 This simple sortable chart for viewing projects and tracking them on a timeline is primarily for coordination between RNI and the Rockefeller Foundation, including the 100 Resilient Cities team. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed.
@@ -13,7 +13,7 @@ This simple sortable chart for viewing projects and tracking them on a timeline 
 1. Edit data in the Google Spreadsheet [here](https://docs.google.com/a/ushahidi.com/spreadsheets/d/1C-s16NaQBkzZSHRl1SvFBjnvJ03GQ74yJ2-Bf5MW1u0/edit#gid=0).
 2. Spreadsheet will update in the chart on a semi-frequent basis (depends on google, usually you can refresh the [RNI Schedule Plotr](XXXXXXXXX) every 5 minutes and it will show your changes); all changes will be checked and QAuto-integrated for Monday morning calls.
 3. View and Sort the chart! [Check the RNI Schedule Plotr Render page.](XXXXXXXX)  
-![Chart](https://raw2.github.com/auremoser/images/master/plotr.png) 
+![Chart](https://raw2.github.com/auremoser/images/master/plotr.png)
 
 ### data
 Data csv looks like this:
@@ -43,11 +43,3 @@ Yays thanks for reading! Shoot me questions if you have any: aurelia@ushahidi.co
 [2]: We can decide what numerical value to prioritize by, I just wanted to log this as a sortable placeholder for future values we might want to track.
 
 [3]: Milestones are vertical plum lines on the chart. You can draw a plum line, as opposed to a bar, by entering a deliverable name, start_date and type of project as "milestone"). Check the csv for examples of this.
-
-
-
-
-
-
-
-
