@@ -1,22 +1,18 @@
-pirateplotr
+RNI Schedule Plotr
 ===========
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/auremoser/pirateplotr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-Ushahidi viz for pirates to plot projects and milestones.  
+This is a visualization of projects and milestones for RNI.
 
 Check out the [Pirate Plotr Render here](http://auremoser.github.io/pirateplotr/).
-Video [tutorial here](http://vimeo.com/auremoser/plotrguide) pw: plotrpals.
 
 ### about
-This is a simple sortable chart for viewing projects and tracking them on a timeline. 
-
-This is mostly for pirates @Ushahidi but also for everyone to have a global view of what's going on when and how the milestones/expectations/resourcing needs shake out.
+This simple sortable chart for viewing projects and tracking them on a timeline is primarily for coordination between RNI and the Rockefeller Foundation, including the 100 Resilient Cities team. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed.
 
 ### how to
-1. ~~Edit the csv in the /data folder to your desired plotting verbage.~~[1]
-1. Edit data in the Google Spreadsheet [here](https://docs.google.com/a/ushahidi.com/spreadsheet/ccc?key=0AlR1bR7sxqL-dFhnYWRNUm81WWNUai0ybjZRcWwyNXc&usp=sharing).
-2. Spreadsheet will update in the chart on a semi-frequent basis (depends on google, usually you can refresh the [Pirate Plotr Render](http://auremoser.github.io/pirateplotr/) every 5 minutes and it will show your changes); all changes will be checked and QAuto-integrated for Monday morning calls.
-3. View and Sort the chart! [Check the Pirate Plotr Render page.](http://auremoser.github.io/pirateplotr/)  
-
+1. Edit data in the Google Spreadsheet [here](https://docs.google.com/a/ushahidi.com/spreadsheets/d/1C-s16NaQBkzZSHRl1SvFBjnvJ03GQ74yJ2-Bf5MW1u0/edit#gid=0).
+2. Spreadsheet will update in the chart on a semi-frequent basis (depends on google, usually you can refresh the [RNI Schedule Plotr](XXXXXXXXX) every 5 minutes and it will show your changes); all changes will be checked and QAuto-integrated for Monday morning calls.
+3. View and Sort the chart! [Check the RNI Schedule Plotr Render page.](XXXXXXXX)  
 ![Chart](https://raw2.github.com/auremoser/images/master/plotr.png) 
 
 ### data
