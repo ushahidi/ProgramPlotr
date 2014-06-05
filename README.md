@@ -3,8 +3,7 @@ RNI Schedule Plotr
 
 This is a visualization of activities and milestones for the Resilience Network Initiative (RNI). Click here to see the [RNI Schedule Plotr](http://ushahidi.github.io/RNIplotr/).
 
-### About
-This simple, sortable chart for viewing projects and tracking them on a timeline is primarily for coordination between RNI and the Rockefeller Foundation, including the 100 Resilient Cities team. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed.
+This simple, sortable chart for viewing projects and tracking them on a timeline is primarily for coordination between RNI and the Rockefeller Foundation, including the 100 Resilient Cities team. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed. Hovering over a specific deliverable will display a pop-up with details (e.g. exact dates) about that deliverable. 
 
 ### Adding/Editing Projects & Milestones
 Edit data in the [Google Spreadsheet here](https://docs.google.com/spreadsheet/ccc?key=0AqED8MaMr0uLdGZIUlVRMDBwNEdoM0lyLXVhZVY0a2c&usp=sharing). The spreadsheet will update in the chart on a semi-frequent basis. It depends on Google, usually you can refresh the [RNI Schedule Plotr](http://ushahidi.github.io/RNIplotr/) every 5 minutes and it will show your changes.
