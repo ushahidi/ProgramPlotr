@@ -12,9 +12,11 @@ Edit data in the [Google Spreadsheet here](https://docs.google.com/spreadsheet/c
 ### Viewing & Sorting the Chart
 View the chart on the [RNI Schedule Plotr](http://ushahidi.github.io/RNIplotr/). Use the “SORT BY” bar at the top of the screen to sort by:
 * **Deliverable**: sorts alphabetically by deliverable name.
-* **Start Date**: sorts the furthest start dates first.
-* **End Date**: sorts the nearest end dates first.
+* **Start Date**: sorts by start dates.
+* **End Date**: sorts by end dates.
 * **Team**: groups deliverables by team.
+
+You can reverse the order of the sort by clicking the same selection again. For example, clicking "Deliverable" will first sort the deliverables alphabetically. Clicking "Deliverable" again will sort the deliverables in _reverse_ alphabetical order.
 
 ### Data
 This is spreadsheet-powered because that's a maintainable format for all contributors; easily editable/updatable. Anyone with a link to the [Google Spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AqED8MaMr0uLdGZIUlVRMDBwNEdoM0lyLXVhZVY0a2c&usp=sharing) can make edits.
