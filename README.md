@@ -1,44 +1,31 @@
 RNI Schedule Plotr
 ===========
 
-This is a visualization of projects and milestones for RNI.
+This is a visualization of activities and milestones for the Resilience Network Initiative (RNI). Click this link to see the [RNI Schedule Plotr Render page](http://ushahidi.github.io/RNIplotr/).
 
-Check out the [RNI Schedule Plotr Render page](http://ushahidi.github.io/RNIplotr/).
+### About
+This simple, sortable chart for viewing projects and tracking them on a timeline is primarily for coordination between RNI and the Rockefeller Foundation, including the 100 Resilient Cities team. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed.
 
-### about
-This simple sortable chart for viewing projects and tracking them on a timeline is primarily for coordination between RNI and the Rockefeller Foundation, including the 100 Resilient Cities team. It is useful for a quick global view of what's going on when and how the milestones/expectations/resourcing need to be managed.
+### Adding/Editing Projects & Milestones
+Edit data in the Google Spreadsheet [here](https://docs.google.com/spreadsheet/ccc?key=0AqED8MaMr0uLdGZIUlVRMDBwNEdoM0lyLXVhZVY0a2c&usp=sharing). The spreadsheet will update in the chart on a semi-frequent basis. It depends on Google, usually you can refresh the [RNI Schedule Plotr](http://ushahidi.github.io/RNIplotr/) every 5 minutes and it will show your changes.
 
-### how to
-1. Edit data in the Google Spreadsheet [here](https://docs.google.com/spreadsheet/ccc?key=0AqED8MaMr0uLdGZIUlVRMDBwNEdoM0lyLXVhZVY0a2c&usp=sharing).
-2. Spreadsheet will update in the chart on a semi-frequent basis (depends on google, usually you can refresh the [RNI Schedule Plotr](XXXXXXXXX) every 5 minutes and it will show your changes); all changes will be checked and QAuto-integrated for Monday morning calls.
-3. View and Sort the chart! [Check the RNI Schedule Plotr Render page.](http://ushahidi.github.io/RNIplotr/)  
-![Chart](https://raw2.github.com/auremoser/images/master/plotr.png)
+### Viewing & Sorting the Chart
+View the chart on the [RNI Schedule Plotr Render page](http://ushahidi.github.io/RNIplotr/). Use the “SORT BY” bar at the top of the screen to sort by:
+* **Deliverable**: sorts alphabetically by deliverable name.
+* **Start Date**: sorts the furthest start dates first.
+* **End Date**: sorts the nearest end dates first.
+* **Team**: groups deliverables by team.
 
-### data
-Data csv looks like this:
+### Data
+This is spreadsheet-powered because that's a maintainable format for all contributors; easily editable/updatable. Anyone with a link to the [Google Spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AqED8MaMr0uLdGZIUlVRMDBwNEdoM0lyLXVhZVY0a2c&usp=sharing) can make edits.
 
-![data.csv](https://raw2.github.com/auremoser/images/master/plotr-sheet.png)
+#### Key
+*	**deliverable**: is an activity name
+*	**start_date**: start date of an activity
+*	**end_date**: end date of an activity
+*	**team**: is the name of the team responsible for the deliverable. Team names are:
+  * _RNI_: Resilience Network Initiative (Shadrock)
+  * _100RC_: 100 Resilient Cities (Jose & team)
+  * _RockFound_: Rockefeller Foundation (Hunter & team)
 
-Headers are static, but all values are editable in the data.csv file.
-
-deliverable	| priority	| start_date	| end_date 	| team | type
-:---:	| :----: 	| :--------: 	| :------: 	| :----: | :----:
-project1 | value1 	| date1 		| date2 	| [V3/CrisisNet/...] | external
-project2 | value2 	| date1 		| date2 	| [V3/CrisisNet/...] | core
-
-#### key
-* **deliverable** is project name
-* **priority** is an arbitrary weight (price point? resources?)[2]
-* **dates** are the start and end date of a project
-* **team** is the name of the team responsible for the deliverable
-* **type** is one of 4 categories for filtering purposes (core, external, ops, milestone)[3]
-
-This is spreadsheet-powered because that's a maintainable format for all contributors; easily editable/updatable.
-
-Yays thanks for reading! Shoot me questions if you have any: aurelia@ushahidi.com.
-
-[1]: Previously, I manually updated the /data/data.csv file and then populated that data in the chart. Now the chart is GDoc powered, to enable easier editing for all pirates in the party. :)
-
-[2]: We can decide what numerical value to prioritize by, I just wanted to log this as a sortable placeholder for future values we might want to track.
-
-[3]: Milestones are vertical plum lines on the chart. You can draw a plum line, as opposed to a bar, by entering a deliverable name, start_date and type of project as "milestone"). Check the csv for examples of this.
+If you have any questions please contact: shadrock@ushadhidi.com
