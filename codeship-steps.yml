@@ -1,0 +1,4 @@
+- name: deploy
+  service: deploy
+  command: |
+    aws s3 sync /app s3://programplotr.ushahidi-s3.com --exclude .git/* --exclude codeship* --exclude .gitignore --exclude deployment.* --acl public-read
