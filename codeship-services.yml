@@ -1,7 +1,0 @@
-deploy:
-  image: ushahidi/engineering-deployer:latest
-  encrypted_env_file: deployment.env.encrypted
-  environment:
-    AWS_DEFAULT_REGION: us-east-1
-  volumes:
-    - .:/app
