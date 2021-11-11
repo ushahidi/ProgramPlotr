@@ -1,3 +1,0 @@
-- name: deploy
-  service: deploy
-  command: aws s3 sync /app s3://programplotr.ushahidi-s3.com --acl public-read
